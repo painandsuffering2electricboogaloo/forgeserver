@@ -10,11 +10,81 @@ to make editing this file much easier.
 {
 	// Generates all block states for all blocks in the registry.
 	"generate_all_known_states": true,
+    // Whether blocks are replaced in existing chunks.
+	"retro_gen": false,
 
+    /* A map of states that specifies what the "old" block state is and what its "new" block state is.
+	   See "known_states" folder("generate_all_known_states" must be set to true in this config) to see all known block states available for all blocks available in the registry.
+	   Example:
+	    "state_swapper": [
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:birch_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "x"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:oak_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:birch_leaves",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"distance": "7",
+	    				"persistent": "true"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:acacia_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:jungle_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "x"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:birch_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:jungle_planks",
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:acacia_planks",
+	    			}
+	    		}
+	    	}
+	    ]
+	*/
 	"state_swapper": [
 		{
-        "new": { "Name": "minecraft:barrel" },
-        "old": { "Name": "immersiveengineering:crate" }
+            "new": {
+                "Name": "minecraft:barrel"
+            },
+            "old": {
+                "Name": "immersiveengineering:crate"
+            }
         }
 	],
 
@@ -25,13 +95,6 @@ to make editing this file much easier.
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-
-    // Whether blocks are replaced in existing chunks.
-    "retro_gen": true,
-
-    // Swap the block immediately if a player tries to place the "old" version
-    "player_placed": false,
-
     "swapper": {
         "immersiveengineering:ore_lead": "minecraft:stone",
         "immersiveengineering:deepslate_ore_lead": "minecraft:deepslate",
