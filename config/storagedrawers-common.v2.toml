@@ -66,7 +66,7 @@
 	# Configuration around detached drawers, which are individual drawer slots pulled from a drawer block.
 	[Drawers.Detached]
 		# Allows individual drawer slots to be pulled out from a drawer block.
-		enable = true
+		enable = false
 		# 
 		# If enabled, carrying filled drawers in your inventory gives slowness debuff.
 		# Debuff can be mitigated with portability upgrade, if it's enabled.
@@ -85,7 +85,7 @@
 	[Drawers.Filled]
 		# If enabled, carrying filled drawers in your inventory gives slowness debuff.
 		# Debuff can be mitigated with portability upgrade, if it's enabled.
-		heavyDrawers = false
+		heavyDrawers = true
 		# 
 		# Allows filled drawers to be stored in other drawer blocks.
 		canStoreInDrawers = false
@@ -150,27 +150,27 @@
 
 		[Upgrades.StorageTiers.Copper]
 			enableUpgrade = true
-			storageMultiplier = 4
+			storageMultiplier = 3
 
 		[Upgrades.StorageTiers.Iron]
 			enableUpgrade = true
-			storageMultiplier = 8
+			storageMultiplier = 4
 
 		[Upgrades.StorageTiers.Gold]
 			enableUpgrade = true
-			storageMultiplier = 16
+			storageMultiplier = 5
 
 		[Upgrades.StorageTiers.Emerald]
 			enableUpgrade = true
-			storageMultiplier = 64
+			storageMultiplier = 6
 
 		[Upgrades.StorageTiers.Diamond]
 			enableUpgrade = true
-			storageMultiplier = 256
+			storageMultiplier = 7
 
 		[Upgrades.StorageTiers.Netherite]
 			enableUpgrade = true
-			storageMultiplier = 2048
+			storageMultiplier = 8
 
 	# Allows same-item slots to balance out their amounts when items are added or removed from a slot.
 	# Works across networks when acting through a controller.
@@ -228,7 +228,7 @@
 
 	# Collects matching items through its top like a vanilla hopper.
 	[Upgrades.Hopper]
-		enableUpgrade = true
+		enableUpgrade = false
 
 	# Collects nearby matching items by teleporting them instantly to the drawer
 	[Upgrades.Magnet]
@@ -241,7 +241,7 @@
 		maxRange = [24, 8, 0]
 
 		[Upgrades.Magnet.Level1]
-			enableUpgrade = true
+			enableUpgrade = false
 			# 
 			# Range is blocks out from drawer as: [horizontal, up, down]
 			range = [1, 1, 0]
@@ -254,7 +254,7 @@
 			idleSpeed = 20
 
 		[Upgrades.Magnet.Level2]
-			enableUpgrade = true
+			enableUpgrade = false
 			# 
 			# Range is blocks out from drawer as: [horizontal, up, down]
 			range = [4, 2, 0]
@@ -267,7 +267,7 @@
 			idleSpeed = 20
 
 		[Upgrades.Magnet.Level3]
-			enableUpgrade = true
+			enableUpgrade = false
 			# 
 			# Range is blocks out from drawer as: [horizontal, up, down]
 			range = [8, 3, 0]
@@ -285,7 +285,7 @@
 
 	# Allows drawers with contents to be freely carried when heavy drawers is enabled.
 	[Upgrades.Portability]
-		enableUpgrade = true
+		enableUpgrade = false
 
 	# Lets drawers emit redstone signals based on their fill level.
 	[Upgrades.Redstone]
@@ -303,10 +303,10 @@
 
 	# Lets drawers connect to a controller wirelessly.
 	[Upgrades.Remote]
-		enableUpgrade = true
+		enableUpgrade = false
 		# 
 		# Group variant connects all drawers connected to the upgraded block.
-		enableGroupUpgrade = true
+		enableGroupUpgrade = false
 		# 
 		# Sets the max range of the single-variant remote upgrade.
 		# The range is capped by the controller range.  Set to 0 to match controller range.
