@@ -71,3 +71,5 @@
 /config/warntax/war_exhaustion.json
 /config/warntax/warchests.json
 /cf-api-key
+/ops.json
+/whitelist.json
