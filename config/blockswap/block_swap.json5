@@ -10,8 +10,6 @@ to make editing this file much easier.
 {
 	// Generates all block states for all blocks in the registry.
 	"generate_all_known_states": true,
-	// Whether blocks are replaced in existing chunks.
-	"retro_gen": false,
 
 	"state_swapper": [
 		{
@@ -19,8 +17,6 @@ to make editing this file much easier.
         "old": { "Name": "immersiveengineering:crate" }
         }
 	],
-	// Swap the block immediately if a player tries to place the "old" version
-	"player_placed": true, 
 
 	/* A map of blocks that specifies what the "old" block is and what its "new" block is.
 	   Example:
@@ -29,23 +25,28 @@ to make editing this file much easier.
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-    // Generates all block states for all blocks in the registry.
-    "generate_all_known_states": true,
 
     // Whether blocks are replaced in existing chunks.
-    "retro_gen": false,
+    "retro_gen": true,
 
     // Swap the block immediately if a player tries to place the "old" version
-    "player_placed": true,
+    "player_placed": false,
 
     "swapper": {
-        "immersiveengineering:ore_lead": "oreganized:lead_ore",
-        "tfmg:lead_ore": "oreganized:lead_ore",
-        "tfmg:deepslate_lead_ore": "oreganized:deepslate_lead_ore",
-        "immersiveengineering:ore_silver": "oreganized:silver_ore",
-        "immersiveengineering:deepslate_ore_silver": "oreganized:deepslate_silver_ore"
-        "destroy:nickel_ore": "tfmg:nickel_ore",
-        "destroy:deepslate_nickel_ore": "tfmg:deepslate_nickel_ore",
+        "immersiveengineering:ore_lead": "minecraft:stone",
+        "immersiveengineering:deepslate_ore_lead": "minecraft:deepslate",
+        "tfmg:lead_ore": "minecraft:stone",
+        "tfmg:deepslate_lead_ore": "minecraft:deepslate",
+        "occultism:silver_ore": "minecraft:stone",
+        "occultism:silver_ore_deepslate": "minecraft:deepslate",
+        "immersiveengineering:ore_silver": "minecraft:stone",
+        "immersiveengineering:deepslate_ore_silver": "minecraft:deepslate",
+        "destroy:nickel_ore": "minecraft:stone",
+        "destroy:deepslate_nickel_ore": "minecraft:deepslate",
+        "immersiveengineering:ore_nickel":"minecraft:stone",
+        "immersiveengineering:deepslate_ore_nickel": "minecraft:deepslate",
+        "immersiveengineering:ore_uranium": "minecraft:stone",
+        "immersiveengineering:deepslate_ore_uranium": "minecraft:deepslate",
+        "enlightend_end:irradium_ore": "minecraft:endstone"
     }
-
 }
