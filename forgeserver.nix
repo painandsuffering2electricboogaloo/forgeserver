@@ -63,7 +63,6 @@
         alexs-caves:2.0.2
         alexs-mobs:1.22.9
         almanac:DnzrwvfD
-        almost-unified:9qc7KIeg
         ambientsounds:viZ543s0
         amendments:73W8UHX3
         adaptive-performance-tweaks-core:lyiW3FfI
@@ -111,7 +110,6 @@
         crackers-wither-storm-mod:4.2.1
         crafttweaker:14.0.60
         create:mc1.20.1-6.0.8
-        createaddoncompatibility:0.2.4
         create-big-cannons:5.11.2
         create-clockwork:1.20.1-forge-0.5.5.2
         create-compatible-storage:2.11.0
