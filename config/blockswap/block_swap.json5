@@ -110,6 +110,6 @@ to make editing this file much easier.
         "immersiveengineering:deepslate_ore_nickel": "minecraft:deepslate",
         "immersiveengineering:ore_uranium": "minecraft:stone",
         "immersiveengineering:deepslate_ore_uranium": "minecraft:deepslate",
-        "enlightend_end:irradium_ore": "minecraft:endstone"
+        "enlightend_end:irradium_ore": "minecraft:end_stone"
     }
 }
