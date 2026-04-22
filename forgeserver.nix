@@ -237,7 +237,6 @@
         petrolpark:1.20.1-1.4.27
         platform:1.3.2
         playeranimator:1.0.2-rc1+1.20-forge
-        pollution-of-create:6778279
         polymorph:UZBKtFyR
         potacore:0.4.2
         puzzles-lib:v8.1.33-1.20.1-Forge
@@ -348,6 +347,7 @@
         minecolonies:7312689
         multi-piston:5204918
         placebo:6274231
+        pollution-of-create:6778279
         pollution-of-the-realms:7723739
         sdm-economy:6689080
         structurize:7277326
