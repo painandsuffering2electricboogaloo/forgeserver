@@ -45,7 +45,7 @@
   "maxIllusionsCount": 9,
   "illusionLifetimeTicks": 600,
   "invisibilityTicks": 60,
-  "enableZombieHorseTrap": true,
+  "enableZombieHorseTrap": false,
   "enableRascal": true,
   "enableRascalSpawn": true,
   "enableTuffGolem": true,
