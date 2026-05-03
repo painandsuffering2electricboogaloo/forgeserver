@@ -147,6 +147,7 @@
         curtain:1.3.2
         cut-through:v8.0.2-1.20.1-Forge
         cynosure:0.1.16-forge
+        diet:diet-forge-2.1.1+1.20.1
         difficult-raids-compatibility-edition:2.0-beta22
         dungeons-and-taverns:3.0.3.f+mod
         dynamictrees:1.20.1-1.4.10
@@ -266,7 +267,6 @@
         sophisticated-backpacks:1.20.1-3.24.35.1675
         sophisticated-core:1.20.1-1.3.21.1676
         spark:1.10.53-forge
-        spice-of-life-apple-pie-edition:2.3.1
         starcatcher:2.2.1-FORGE-1.20.1
         storagedrawers:8raubcF4
         structurify:forge-2.0.22+mc1.20.1
