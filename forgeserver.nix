@@ -63,7 +63,6 @@
         alexs-caves:2.0.2
         alexs-mobs:1.22.9
         almanac:DnzrwvfD
-        almost-unified:9qc7KIeg
         ambientsounds:viZ543s0
         amendments:73W8UHX3
         adaptive-performance-tweaks-core:lyiW3FfI
@@ -111,7 +110,6 @@
         crackers-wither-storm-mod:4.2.1
         crafttweaker:14.0.60
         create:mc1.20.1-6.0.8
-        createaddoncompatibility:0.2.4
         create-big-cannons:5.11.2
         create-clockwork:1.20.1-forge-0.5.5.2
         create-compatible-storage:2.11.0
@@ -220,6 +218,7 @@
         modonomicon:1.20.1-1.79.3
         mcda:5.0.2
         moonlight:4f5Vm2TE
+        morejs:1.20.1-0.10.1+forge
         music-maker-mod:1.20.1-1.0.3
         mutil:6.2.0
         necronomicon:1.6.0+1.20.1
@@ -297,6 +296,7 @@
         wesleys-roguelike-dungeons:Md7628mU
         what-are-they-up-to:GpiXMxvP
         what-are-you-voting-for-2023:aGgzILtB
+        wither-reincarnated:1.0.5
         yacl:3.6.6+1.20.1-forge
         yungs-api:1.20-Forge-4.0.6
         yungs-better-desert-temples:1.20-Forge-3.0.3
@@ -331,6 +331,7 @@
         create-arm-made-cuisine:7473211
         create-colonial:7384684
         createcolonies:7134076
+        create-heat-js:7704749
         cupboard:7905744
         doespotatotick:7449395
         domum-ornamentum:7795595
@@ -341,10 +342,12 @@
         ftb-library-forge:7296748
         ftb-teams-forge:7499810
         kubejs-ars-nouveau:4862554
+        kubejs-immersive-engineering-unofficial:6593605
         large-ore-deposits:7657639
         minecolonies:7312689
         multi-piston:5204918
         placebo:6274231
+        pollution-of-create:6778279
         pollution-of-the-realms:7723739
         sdm-economy:6689080
         structurize:7277326
