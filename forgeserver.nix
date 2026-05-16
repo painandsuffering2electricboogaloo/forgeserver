@@ -59,7 +59,7 @@
         https://storage.ps2.dev/public/mc/lionfishapi-2.4.jar";
       "MODRINTH_PROJECTS_DEFAULT_VERSION_TYPE" = "beta";
       "MODRINTH_PROJECTS" =
-        "absent-by-design:1.9.0
+        "absent-by-design:1.20.1-1.9.0
         alexs-caves:2.0.2
         alexs-mobs:1.22.9
         almanac:DnzrwvfD
