@@ -63,7 +63,7 @@
         alexs-caves:2.0.2
         alexs-mobs:1.22.9
         almanac:DnzrwvfD
-        almost-unified:9qc7KIeg
+        almostunified:9qc7KIeg
         ambientsounds:viZ543s0
         amendments:73W8UHX3
         adaptive-performance-tweaks-core:lyiW3FfI
