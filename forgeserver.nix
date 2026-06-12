@@ -90,7 +90,7 @@
         blueprint:7.1.3
         botarium:2.3.4
         bountiful:6.0.4+1.20.1
-        buddycards:1.20.1-4.1.0
+        buddycards:1.20.1-4.3.1
         l_enders-cataclysm:TFKWu05d
         cataclysm-x-bettercombat-compat:bKqqAtgG
         cave-delight:2.0.1
