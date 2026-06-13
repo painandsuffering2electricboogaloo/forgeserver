@@ -231,7 +231,7 @@
         obscure-api:18
         observable:4.4.2+forge
         occultism:1.20.1-1.157.0
-        octo-lib:HZ7KmyXp
+        shatterbyte-lib:HZ7KmyXp
         oreganized:4.3.2
         packet-fixer:9F4NGhGR
         patchouli:1.20.1-85-forge
