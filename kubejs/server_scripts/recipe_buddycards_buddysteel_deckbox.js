@@ -12,6 +12,6 @@ ServerEvents.recipes(event => {
       B: 'create:iron_sheet'
     }
   )
+  
+  event.remove({ id: 'buddycards:buddysteel_deckbox' })
 })
-
-event.remove({ id: 'buddycards:buddysteel_deckbox' })
