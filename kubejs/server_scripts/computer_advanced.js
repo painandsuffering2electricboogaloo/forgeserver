@@ -10,9 +10,9 @@ ServerEvents.recipes(event => {
       'PQP'
     ],
     {
-      P: 'forge:ingots/plastic',
+      P: '#forge:ingots/plastic',
       C: 'computercraft:computer_normal',
-      Q: 'tfmg:circuit_board'
+      Q: '#tfmg:circuit_board'
     }
   )
 
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
       'PQP'
     ],
     {
-      P: 'destro:plastics/rigid',
+      P: '#destroy:plastics/rigid',
       C: 'computercraft:computer_normal',
       Q: 'tfmg:circuit_board'
     }
