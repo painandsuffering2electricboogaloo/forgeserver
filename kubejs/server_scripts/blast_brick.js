@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
     ],
     {
       C: 'create:blaze_cake',
-      B: 'forge:ingots/brick',
+      B: '#forge:ingots/brick',
       N: 'minecraft:nether_brick'
     }
   )
